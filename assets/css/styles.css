@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.carousel-inner .carousel-item img{
+    height: 450px;
+}
+
+.carousel-inner{
+    border-radius: 5px;
+}
+
+.navbar{
+    height: 85px;
+}
+
+.nav-link:hover{
+    color: #00aeef !important;
+}
+
+.img-logo{
+    width: 250px; 
+    height: 75px;
+}
+
+@media only screen and (max-width: 770px) {
+    .navbar{
+        height: auto;
+    }
+    
+    .carousel-inner .carousel-item img{
+        height: 200px;
+    }
+
+    .carousel-inner{
+        margin-top: 20px;
+    }
+    .img-logo{
+        margin-top: 10px;
+    }
+
+    .contact_info{
+        margin-left: 10px;
+    }
+}
